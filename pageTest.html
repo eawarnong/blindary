@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(() => {
+		console.log('5555555');
+		$test = '{"test":"test2", "eiei":"eiei2"}';
+		console.log($test);
+		$.ajax({
+			url		: 'pageTest.php?function=testFunc2&param=' + $test,
+			success	: function(data) {
+				console.log(data);
+				console.log(typeof(data));
+				console.log(data.userID);
+			}
+		});
+	});
+
+</script>
+</body>
+</html>

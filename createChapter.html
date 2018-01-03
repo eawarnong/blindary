@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,user-scalable=yes">
+    <title>Blindary ห้องสมุดเสียงออนไลน์</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="canonical" href="/">
+    <meta name="description" content="ห้องสมุดเสียงออนไลน์ เพื่อผู้พิการทางสายตา">
+    <meta name="author" content="KMUTT">
+    <meta name="theme-color" content="#FFD200">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Blindary">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Blindary">
+    <!-- <link rel="apple-touch-icon" href="/img/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/manifest/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/img/manifest/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/img/manifest/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/manifest/icon-512x512.png">
+    <meta name="msapplication-TileImage" content="/img/manifest/icon-144x144.png"> -->
+    <meta name="msapplication-TileColor" content="#FFD200">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- <link rel="stylesheet" type="text/css" href="css/w3.css"> -->
+    <!-- <script>
+                $(function(){
+                    $("#menu_1").load("menu_1.html"); 
+                });
+   </script> -->
+</head>
+
+    
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div id="menu"></div>
+        <div class="container">
+            <div class="bg-columnBook">
+                <div class="blank-space">
+                    <div class="row ">
+                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 bg-grey">
+                            <div class="bg-column">
+                               
+                                <div id="bookDetail"></div>
+                                
+                            </div>  
+
+                            <div id="createChapterOwn"></div> 
+                            <div id="joinChap"></div>
+                            
+                            
+                            
+                           
+                            <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <button class="button">+ เพิ่มบทใหม่</button> 
+                            </div> -->
+                        </div>
+
+                        
+                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 sprit" style=" height: auto;">
+                            <div class="bg-column">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="nav-item li1">
+                                        <a class="font nav-link active" data-toggle="tab" href="#manageBook" role="tab">จัดการหนังสือ</a>
+                                      </li>
+                                      
+                                      <li class="nav-item li1">
+                                        <a class="font nav-link" data-toggle="tab" href="#feedback" id="comments" role="tab">ความคิดเห็น</a>
+                                        
+                                      </li>
+                                      <li class="nav-item joinNav li1">
+                                        <a class="font nav-link" data-toggle="tab" href="#chapter_join" role="tab">คำร้องขอเข้าร่วม</a>
+                                        
+                                      </li>
+                                    </ul>
+
+
+                                <!-- Tab panes -->
+                                    
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="manageBook" role="tabpanel">
+                                            <div class="row">
+
+                                                <div class="chapDelete col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 " style="border-bottom: 1px solid #F8F8F8">
+                                                    <button id="deleteChap" class="btn btn-sm" style="margin: 10px 5px;float: right">
+                                                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                                    </button>
+                                                    <button id="backChap" class="btn btn-sm " style="margin: 10px 5px;float: right">
+                                                    <i class="fa fa-times time-delete" aria-hidden="true"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 v-b"  style="background: #ffffff; height: 648px; overflow-y: scroll; overflow-x:hidden;">
+                                                    <div id="chapters" class="row"></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane" id="feedback" role="tabpanel">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 v-b"  style="background: #ffffff; height: 648px; overflow-y: scroll; overflow-x:hidden;">
+
+                                                <div id="comment"></div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="chapter_join" role="tabpanel">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 v-b"  style="background: #ffffff; height: 648px; overflow-y: scroll; overflow-x:hidden;">
+
+                                                <div id="bookJoin"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-xl-12">
+        <div id="footer"></div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> -->
+        <script src="js/main.js"></script>
+        <script src="js/createChapter.js"></script>
+        <script src="js/youtube.js"></script>
+        <script src="https://apis.google.com/js/api.js"></script>  
+        <script async defer src="js/authentication.js" 
+        onload="this.onload=function(){};handleClientLoad()" 
+        onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+        <noscript>
+            Please enable JavaScript to view this application.
+        </noscript>
+
+
+    </body>
+</html>

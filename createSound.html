@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,user-scalable=yes">
+    <title>Blindary ห้องสมุดเสียงออนไลน์</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="canonical" href="/">
+    <meta name="description" content="ห้องสมุดเสียงออนไลน์ เพื่อผู้พิการทางสายตา">
+    <meta name="author" content="KMUTT">
+    <meta name="theme-color" content="#FFD200">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Blindary">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Blindary">
+    <!-- <link rel="apple-touch-icon" href="/img/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/manifest/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/img/manifest/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/img/manifest/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/manifest/icon-512x512.png">
+    <meta name="msapplication-TileImage" content="/img/manifest/icon-144x144.png"> -->
+    <meta name="msapplication-TileColor" content="#FFD200">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- <link rel="stylesheet" type="text/css" href="css/w3.css"> -->
+    <!-- <script>
+                $(function(){
+                    $("#menu_1").load("menu_1.html"); 
+                });
+   </script> -->
+</head>
+    
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+            <div id="menu"></div>
+            <div class="container">
+                <div class="bg-columnBook">
+                    <div class="blank-space">
+                        <div class="row ">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 ">
+                                <div class="bg-column">
+                                
+                                    
+                                        
+                                        <div id="chapterDetail"></div>
+
+                                    
+                                
+                                </div>
+
+
+                                
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                
+                                    <button class="button" id="insertSound" data-toggle="modal" data-target="#myModal" style="margin-top: -25px;">
+                                        <span>+ เพิ่มเนื้อหาใหม่</span>
+                                    </button>
+                                    
+                                   
+                                    <!-- Modal -->
+                                    <div class="modal fade addSound" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+                                        
+                                          <!-- Modal content-->
+                                          <div class="modal-content">
+                                            <div class="modal-header text-center">
+                                              <!-- <button type="button" class="close" data-dismiss="modal" style="font-size: 1.2em;">&times;</button> -->
+                                              <i class="fa fa-times" data-dismiss="modal" style="font-size: 20px; float:right;" aria-hidden="true"></i>
+                                              <h4 class="modal-title ">เพิ่ม/แก้ไขเนื้อหา</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="p-detail">ใส่เสียงที่ต้องการจะสร้างใหม่หรือต้องการจะแก้ไข</p>
+                                                <div class="input-group">
+                                                    <input class="form-control input-normal search" id="paragraph_order" name ="paragraph_order" type="text">
+                                                    <div class="input-group-btn">
+                                                        
+                                                        <button type="button" class="btn btn-primary" id="createSound">
+                                                           ยืนยัน
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div> -->
+                                          </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    
+
+                                  
+                                </div>
+                                
+                                
+                               
+                                <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <button class="button">+ เพิ่มบทใหม่</button> 
+                                </div> -->
+                            </div>    
+                            
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 sprit bg-column">
+                            
+                                <div class="paragraphs col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                    <div class="row">
+
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 " style="border-bottom: 1px solid #F8F8F8">
+                                            <button id="edit" class="btn btn-sm" style="margin: 10px 5px;float: right">
+                                                <i class="fa fa-pencil-square-o"  aria-hidden="true" ></i>
+                                            </button>
+                                             <button id="cancleEdit" class="btn btn-sm" style="margin: 10px 5px;float: right">
+                                                <i class="fa fa-times time-delete" aria-hidden="true"></i>
+                                            </button>
+                                            <button id="deleteParagraph" class="btn btn-sm" style="margin: 10px 5px;float: right">
+                                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                            </button>
+                                            <button id="backParagraph" class="btn btn-sm" style="margin: 10px 5px;float: right">
+                                                <i class="fa fa-times time-delete" aria-hidden="true"></i>
+                                            </button>
+                                            <div id="paragraphEdit" class="inline" style="float: right;margin: 8px -5px">
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 v-b"  style="background: #ffffff; height: 648px; overflow-y: scroll; overflow-x:hidden;">
+                                                
+                                                <div id="paragraph" ></div>
+                                                
+                                        
+                                       </div>  
+                                   </div>               
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="footer"></div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> -->
+        <script src="js/main.js"></script>
+        <script src="js/createSound.js"></script>
+        <script src="js/youtube.js"></script>
+        <script async src="https://apis.google.com/js/api.js"></script>
+        <script async defer src="js/authentication.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+        <noscript>
+            Please enable JavaScript to view this application.
+        </noscript>
+
+
+    </body>
+</html>
