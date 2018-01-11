@@ -1,0 +1,16 @@
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 2, 'ดีมากเลยค่ะ อ่านสนุก', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234123412341', 2, 'สนุกมากค่ะแต่มีเสียงลม', 3);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1211110939939', 5, 'ดีค่ะ', 4);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 5, 'ชอบเรื่องนี้มากๆเลย', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 5, 'ชอบเรื่องนี้มากๆเลย', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 5, 'อิอิ', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 5, 'กรี๊สสสสส คุณหลวงงงง>//<', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 5, 'คุณหลวงคุณหลวง อยู่กระทรวงยุทธนา', 3);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('900023', 5, 'ว๊ายๆๆๆๆๆ', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234123412341', 2, '', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('12112017', 65, 'ชอบจังเลย', 4);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234567890000', 65, 'อยากให้มีต่อจังเลย ช๊อบชอบ', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234123412341', 65, 'ปักๆๆๆ', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('1234123412341', 64, 'มีตอนเดียวเองหรอ? อยากฟังต่อ', 4);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('4321123412341', 65, 'ชอบเรื่องนี้', 5);
+INSERT INTO blindary.BLIND_FEEDBACK (blind_id, book_id, comment, rating) VALUES ('4321432112341', 64, 'รอตอบต่อไปนะ', 4);

@@ -1,0 +1,11 @@
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234123412341', 5, 4);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234123412341', 2, 5);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234567890000', 5, 3);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234123412341', 9, 5);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234567890000', 29, 4);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('4321123412341', 65, 5);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234567890000', 65, 4);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234567890000', 64, 5);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('4321123412341', 64, 4);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('4321432112341', 64, 4);
+INSERT INTO blindary.BOOK_RATING (blind_id, book_id, rating) VALUES ('1234567890000', 9, 4);

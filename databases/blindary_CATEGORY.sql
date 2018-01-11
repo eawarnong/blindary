@@ -1,0 +1,15 @@
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('วรรณคดี วรรณกรรม');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ธุรกิจและการจัดการ');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('หนังสือสำหรับเยาวชน');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('การท่องเที่ยว');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('คู่มือสอบต่างๆ');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('เบ็ดเตล็ด');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ปรัชญา จิตวิทยา');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ศาสนา โหราศาสตร์');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('สังคมศาสตร์');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ภาษาศาสตร์');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('วิทยาศาสตร์');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('วิทยาการและเทคโนโลยี');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ศิลปกรรม/การบันเทิง');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('ประวัติศาสตร์/ภูมิศาสตร์');
+INSERT INTO blindary.CATEGORY (category_name) VALUES ('อื่นๆ');

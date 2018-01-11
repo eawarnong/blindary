@@ -1,0 +1,13 @@
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 2, '2017-09-18', 1);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 2, '2017-09-09', 2);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 5, '2017-09-09', 1);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 5, '2017-09-09', 3);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 5, '2017-09-09', 5);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412341', 9, '2017-11-07', 1);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234123412343', 7, '2017-10-20', 1);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 2, '2017-09-16', 3);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 2, '2017-09-09', 15);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 5, '2017-09-25', 1);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 5, '2017-09-09', 3);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 5, '2017-09-16', 6);
+INSERT INTO blindary.BLIND_BOOKMARK (blind_id, book_id, date, chapter_id) VALUES ('1234567890000', 65, '2017-11-12', 6);

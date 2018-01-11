@@ -1,0 +1,10 @@
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '0618968636', '2017-10-28', 'Fiction', null);
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '9780064471084', '2017-11-02', 'Juvenile Fiction', null);
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '9789749916544', '2017-11-07', 'Thai fiction', 'ความสุขของกะทิ ตอนตามหาพระจันทร์');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', null, '2017-11-07', null, 'ลูกหมูสามตัว');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '9780545010221', '2017-11-07', 'Juvenile Fiction', 'Harry Potter and the Deathly Hallows (Book 7)');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '0066238501', '2017-11-07', 'Fiction', 'The Chronicles of Narnia (adult)');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', '0826215491', '2017-11-07', 'Literary Criticism', 'The Ivory Tower and Harry Potter');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234567890000', null, '2017-11-07', null, 'กระต่ายกับเต่า');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234123412341', null, '2017-11-13', null, 'บ้านทรายทอง');
+INSERT INTO blindary.BLIND_REQUEST (blind_id, ISBN, date, book_category, book_name) VALUES ('1234123412341', '9789747547542', '2017-11-13', '', 'เงาระบายสี');
